@@ -30,7 +30,7 @@ def load_tensors(table_name):
 
     return table_names, cell_values, tensors
 
-def main(start, end, params):
+def main(start, end):
     start_time = time.time()
 
     # Define the names of tables containing tensors
